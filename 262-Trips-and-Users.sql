@@ -1,4 +1,4 @@
-/* 262. Trips and Users (Hard)
+'''  262. Trips and Users (Hard)
 
 The Trips table holds all taxi trips. Each trip has a unique Id, while Client_Id and Driver_Id are both foreign keys to the Users_Id at the Users table. Status is an ENUM type of (‘completed’, ‘cancelled_by_driver’, ‘cancelled_by_client’).
 
@@ -41,7 +41,7 @@ For the above tables, your SQL query should return the following rows with the c
 | 2013-10-02 |       0.00        |
 | 2013-10-03 |       0.50        |
 +------------+-------------------+
-*/
+'''
 
 -- Answer 1: Subquery, CASE WHEN
 With temp AS (

@@ -1,4 +1,5 @@
-/* 197. Rising Temperature (Easy)
+'''
+197. Rising Temperature (Easy)
 
 Table: Weather
 
@@ -13,7 +14,7 @@ id is the primary key for this table.
 This table contains information about the temperature in a certain day.
 
 
-Write an SQL query to find all dates' id with higher temperature compared to its previous dates (yesterday).
+Write an SQL query to find all dates id with higher temperature compared to its previous dates (yesterday).
 
 Return the result table in any order.
 
@@ -37,7 +38,9 @@ Result table:
 | 4  |
 +----+
 In 2015-01-02, temperature was higher than the previous day (10 -> 25).
-In 2015-01-04, temperature was higher than the previous day (30 -> 20). */
+In 2015-01-04, temperature was higher than the previous day (30 -> 20).
+'''
+
 
 -- Answer (T-SQL):
 

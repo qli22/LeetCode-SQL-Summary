@@ -1,4 +1,4 @@
-/* 196. Delete Duplicate Emails (Easy)
+''' 196. Delete Duplicate Emails (Easy)
 
 Write a SQL query to delete all duplicate email entries in a table named Person,
 keeping only unique emails based on its smallest Id.
@@ -23,7 +23,7 @@ following rows:
 Note:
 
 Your output is the whole Person table after executing your sql.
-Use delete statement.*/
+Use delete statement. '''
 
 --- Answer (Mysql):
 Delete a1 from Person a1 join Person a2 on a1.id > a2.id and a1.email = a2.email;
